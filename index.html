@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Leo`s Portfolio</title>
+</head>
+<body>
+    <a style="display: hidden;" id="inicio"></a>
+
+    <header>
+        <nav id="nav">
+
+            <div class="logo">
+            </div>
+    
+            <div class="links">
+                <a href="#inicio" class="nav-link">Inicio</a>
+                <a href="#sobre-mi" class="nav-link">Sobre mi</a>
+                <a href="#conocimientos" class="nav-link">Conocimientos</a>
+                <a href="#proyectos" class="nav-link">Proyectos</a>
+                <a href="cv/Curriculum vitae Leonardo Carrasco.pdf" download class="nav-link">Descargar CV</a>
+                <a id="contacto-btn" href="#contacto" class="nav-link">Contáctame</a>
+            </div>
+
+            <div class="navbar">
+                <i class="fa-solid fa-bars btn-menu"></i>
+            </div>
+    
+        </nav>
+    
+        <section id="hero">
+    
+            <div class="container">
+                <div class="presentacion">
+                    <h1>Hola, soy <span id="name">Leo.</span></h1>
+                    <p>Junior/Trainee Front End Developer.</p>
+                    <div class="socials">
+                        <a href="https://www.linkedin.com/in/leonardo-carrasco-5026b8246/" target="_blank"><i class="fa-brands fa-linkedin" id="linkedin"></i></a>
+                        <a href="https://github.com/LeonardoCarrasco" target="_blank"><i class="fa-brands fa-github" id="github"></i></a>
+                        <a href="https://twitter.com/home?lang=es" target="_blank"><i class="fa-brands fa-twitter" id="twitter"></i></a>
+                    </div>
+                </div>
+        
+                <div class="img-presentacion">
+                    <img src="img/12 copia.png" alt="bola de gradientes">
+                </div>
+            </div>
+    
+        </section>
+        
+        <div class="arrow-down">
+            <a href="#sobre-mi"><i class="fa-solid fa-chevron-down"></i></a>
+        </div>
+
+    </header>
+    
+    <main class="sobre-mi" id="sobre-mi">
+
+        <div class="container glass "style="margin-top:50px ;">
+            <div class="sb-content">
+                <h2>Sobre Mi.</h2>
+                <p>Hola, soy Leonardo Agustin Carrasco. Tengo 23 años (26/12/1998)
+                    estudiante de desarrollo web en la Universidad del Comahue, Neuquén.
+                    Actualmente en busqueda de mi primer trabajo en el mundo de la 
+                    programación. Con muchas ganas de seguir aprendiendo y obtener 
+                    experiencia en el rubro.
+                </p>
+                <p>
+                    Ambicioso y capaz de trabajar independientemente o en equipo.
+                </p>
+                <p>
+                    Aporto una actitud positiva y la voluntad y motivación para aprender nuevos programas.
+                </p>
+
+                <div class="intereses">
+                    <h4>Intereses: </h4>
+                    <p>Programación 💻</p>
+                    <p>Diseño UI 🎨</p>
+                    <p>Videojuegos 🎮</p>
+                    <p>Skate 🛹</p>
+                    <p>Produccion musical (Beatmaking) 🎹</p>
+                    <p>Hardware 🖥</p>
+                </div>
+
+                <a href="cv/Curriculum vitae Leonardo Carrasco.pdf" download id="cv-download"><span>Descargar CV <i class="fa-solid fa-download"></i></span></a>
+            </div>
+
+        </div>
+        <a href="" style="display: hidden;" id="conocimientos"></a>
+        
+        <section class="conocimientos" >
+        <div class="container">
+            
+            <div class="container-data glass">
+
+                <div class="titulo">
+                    Formación <i class="fa-solid fa-user-graduate"></i>
+                </div>
+
+                <div class="formacion-container">
+
+                    <div class="container-row">
+
+                        <div class="formacion-contenido">
+                            <h2><a href="https://www.fi.uncoma.edu.ar/index.php/academica/carreras-fai/tecnicatura/" target="_blank">Tecnicatura Universitaria en Desarrollo Web</a></h2>
+                            <h4>Universidad Nacional del Comahue, Neuquén</h4>
+                            <p>2019 AGO. - PRESENTE.</p>
+
+                            <h4 class="accordion">Materias Aprobadas <i class="fa-solid fa-chevron-down"></i></h4>
+
+                            <div class="mat-aprobadas">
+
+                                <p>Inglés Tecnico. <i class="fa-solid fa-check"></i></p>
+                                <p>Introducción a la Programación. <i class="fa-solid fa-check"></i></p>
+                                <p>Matemática General. <i class="fa-solid fa-check"></i></p>
+                                <p>Programación Estática y Laboratorio Web. <i class="fa-solid fa-check"></i></p>
+                                <p>Programación Orientada a Objetos (POO). <i class="fa-solid fa-check"></i></p>
+                                <p>Diseño Grafico. <i class="fa-solid fa-check"></i></p>
+
+                            </div>
+                        </div>
+        
+                        <div class="formacion-contenido">
+                            <h2>Perito Mercantil</h2>
+                            <h4>C.E.T N° 31, Villa Manzano</h4>
+                            <p>2012 - 2018</p>
+                        </div>
+        
+                        <div class="formacion-contenido">
+                            <h1>Cursos</h1>
+                            <h2>Diagnòstico y Mantenimiento de PC</h2>
+                            <h4>Informatic Training Center</h4>
+                            <p>2019 FEB. - 2019 AGO.</p>
+                            <a href="certificado.html" target="_blank" id="certificado">Ver Certificado <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+
+                    </div>
+
+                    <div class="container-row">
+
+                        <img src="https://i.pinimg.com/originals/c6/7b/b0/c67bb0926943fff8c648529269032b04.gif" alt="estudiando ando" class="gif-img">
+
+                    </div>   
+
+                </div>
+
+                <div class="titulo">
+                    Conocimientos <i class="fa-solid fa-code"></i>
+                </div>
+
+                <div class="conocimientos-container">
+
+                    <div class="container-row">
+
+                        <div class="conocimiento-contenido">
+                            <h2><i class="fa-brands fa-html5"></i> HTML</h2>
+                            <h4>Nivel: Principiante</h4>
+                            <div class="barra">
+                                <div class="progreso" style="--w:98%"></div>
+                            </div>
+                        </div>
+
+                        <div class="conocimiento-contenido">
+                            <h2><i class="fa-brands fa-css3-alt"></i> CSS</h2>
+                            <h4>Nivel: Principiante</h4>
+                            <div class="barra">
+                                <div class="progreso" style="--w:80%"></div>
+                            </div>
+                        </div>
+
+                        <div class="conocimiento-contenido">
+                            <h2><i class="fa-brands fa-js"></i> JavaScript.</h2>
+                            <h4>Nivel: Aprendiz/Principiante</h4>
+                            <div class="barra">
+                                <div class="progreso" style="--w:50%"></div>
+                            </div>
+                        </div>
+
+                        <div class="conocimiento-contenido">
+                            <h2><i class="fa-brands fa-php"></i> PHP</h2>
+                            <h4>Nivel: Aprendiz</h4>
+                            <div class="barra">
+                                <div class="progreso" style="--w:40%"></div>
+                            </div>
+                        </div>
+
+                        <div class="conocimiento-contenido">
+                            <h2><i class="fa-brands fa-square-git"></i> Git.</h2>
+                            <h4>Nivel: Aprendiz</h4>
+                            <div class="barra">
+                                <div class="progreso" style="--w:20%"></div>
+                            </div>
+                        </div>
+
+                        <div class="conocimiento-contenido">
+                            <h2><i class="fa-solid fa-database"></i> MySQL</h2>
+                            <h4>Nivel: Aprendiz</h4>
+                            <h3>Modelo Relacional</h3>
+                            <div class="barra">
+                                <div class="progreso" style="--w:10%"></div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="container-row">
+                        <img src="https://i.pinimg.com/originals/e4/26/70/e426702edf874b181aced1e2fa5c6cde.gif" class="gif-img" alt="programando">
+                    </div>
+                </div>
+
+            </div>
+           
+            
+        </div>
+
+    </section>
+
+    </main>
+
+    <sectio class="proyectos-section" >
+
+        <div class="container" id="proyectos">
+            
+            <div class="container-data">
+
+                <div class="container-text">
+                    <h1>Proyectos <i class="fa-solid fa-folder-open"></i></h1>
+                    <p>PROYECTOS PERSONALES -</p>
+                </div>
+
+                <div class="container-proyectos">
+
+                    <div class="proyectos first">
+
+                        <div class="link-repository">
+                            <a href="https://github.com/LeonardoCarrasco/Todo-App.github.io" target="_blank"><i class="fa-brands fa-github" id="github"></i></a>
+                            <a href="https://leonardocarrasco.github.io/Todo-App.github.io/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+
+                        <div class="proyecto-caract">
+                            <h1>ToDo App</h1>
+                            <div class="lang-used">
+                                <span>HTML/CSS</span>
+                                <span>JS</span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="proyectos second">
+
+                        <div class="link-repository">
+                            <a href="https://github.com/LeonardoCarrasco/typing-web" target="_blank"><i class="fa-brands fa-github" id="github"></i></a>
+                            <a href="https://leonardocarrasco.github.io/typing-web/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+
+                        <div class="proyecto-caract">
+                            <h1>Typing App</h1>
+                            <div class="lang-used">
+                                <span>HTML/CSS</span>
+                                <span>JS</span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="proyectos third">
+
+                        <div class="link-repository">
+                            <a href="https://github.com/LeonardoCarrasco/Windbnb-Challenge" target="_blank"><i class="fa-brands fa-github" id="github"></i></a>
+                            <a href="https://leonardocarrasco.github.io/Windbnb-Challenge/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+
+                        <div class="proyecto-caract">
+                            <h1>Windbnb challenge</h1>
+                            <div class="lang-used">
+                                <span>HTML/CSS</span>
+                                <span>JS</span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="proyectos fourth">
+
+                        <div class="link-repository">
+                            <a href="https://github.com/LeonardoCarrasco/netflix-clone-roughly-" target="_blank"><i class="fa-brands fa-github" id="github"></i></a>
+                            <a href="https://leonardocarrasco.github.io/netflix-clone-roughly-/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+
+                        <div class="proyecto-caract">
+                            <h1>Netflix Home page clone</h1>
+                            <div class="lang-used">
+                                <span>HTML/CSS</span>
+                                <span>JS</span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="proyectos fifth">
+
+                        <div class="link-repository">
+                            <a href="https://github.com/LeonardoCarrasco/Re-Model-Flashband-Page" target="_blank"><i class="fa-brands fa-github" id="github"></i></a>
+                            <a href="https://leonardocarrasco.github.io/Re-Model-Flashband-Page/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+
+                        <div class="proyecto-caract">
+                            <h1>Website remodeling of internet provider</h1>
+                            <div class="lang-used">
+                                <span>HTML/CSS</span>
+                                <span>JS</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </sectio>
+
+    <section class="contacto" id="contacto">
+
+        <div class="container">
+
+            <div class="container-data">
+
+                <div class="titulo" id="titulo-contact">
+                    <h1>Contáctame</h1>
+                    <span>- Tipos de contacto -</span>
+                </div>
+                
+                <div class="container-all-contact">
+
+                    <div class="types-contacts">
+
+                        <div class="type">
+                            <div class="icon">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <div class="type-contact-info">
+                                <h2>Llámame</h2>
+                                <span>+54 299 5375026</span>
+                            </div>
+                        </div>
+    
+                        <div class="type">
+                            <div class="icon">
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+                            <div class="type-contact-info">
+                                <h2>Email</h2>
+                                <span id="correo">carrasco.leonardo.agustin@gmail.com</span>
+                            </div>
+                        </div>
+    
+                        <div class="type">
+                            <div class="icon">
+                                <i class="fa-solid fa-location-pin"></i>
+                            </div>
+                            <div class="type-contact-info">
+                                <h2>Ubicación</h2>
+                                <span>Rio Negro, Argentina</span>
+                            </div>
+                        </div>
+    
+                    </div>
+        
+
+
+                </div>
+
+
+            </div>
+
+        </div>
+    </section>
+
+    <div class="footer">
+        <div class="footer-content">
+            <h2>Hecho por Leonardo Carrasco &copy 2022</h2>
+        </div>
+
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
