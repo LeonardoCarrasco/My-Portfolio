@@ -592,26 +592,20 @@ img{
     color: #00d7d7b8;
 }
 
-.container-all-contact{
+.types-contacts {
     display: flex;
+    align-items: center;
     justify-content: center;
-    gap: 50px;
+    margin: 10px 0;
     flex-wrap: wrap;
 }
 
-.types-contacts{
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-    margin: 10px 0;
-    padding-right: 50px;
-}
-
-.types-contacts .type{
+.types-contacts .type {
     display: flex;
     align-items: center;
-    padding: 25px 0;
+    padding: 25px;
     word-break: break-word;
+    flex-grow: 1;
 }
 
 .types-contacts .type .icon{
