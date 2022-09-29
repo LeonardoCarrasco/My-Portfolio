@@ -62,17 +62,6 @@ a{
     display: none;
 }
 
-.active{
-    z-index: 300;
-    transform: translateX(0) !important;
-    border-right: 1px solid rgba(255, 255, 255, 0.25);
-    box-shadow: 0 0 100px 10px #0a0a0a9e;
-    overflow: hidden;
-}
-
-.links{
-
-}
 
 .links a{
     font-size: 1.2rem;
@@ -630,68 +619,6 @@ img{
     font-size: .9rem;
 }
 
-.contacto-form{
-    /* width: 100%; */
-    flex-grow: 1;
-}
-
-.contact-inputs{
-    width: 100%;
-}
-
-.contenido-contacto{
-    margin: 10px 0;
-}
-
-.contenido-contacto label{
-    display: block;
-    margin: 10px 0;
-    color: #fff;
-
-}
-
-.contenido-contacto input[type="text"], textarea{
-    width: 100%;
-    padding: 12px;
-    border-radius: 4px;
-    box-shadow: 0px 2px 3px #00d7d7d6;
-    background-color: rgb(24 50 56 / 39%);
-    color: #FFF;
-    font-size: .9rem;
-    font-weight: 600;
-}
-
-textarea{
-    min-height: 50px;
-    max-height: 200px ;
-    resize: vertical;
-}
-
-.btn-container{
-    padding: 10px 0;
-}
-
-.btn-container .btn{
-    padding: 12px 24px;
-    background-color: rgb(26, 56, 62);
-    border-radius: 8px;
-    box-shadow: 0px 2px 3px #00d7d7d6;
-    color: #ffffff;
-    font-size: 1rem;
-    font-weight: 700;
-    cursor: pointer;
-}
-
-button[type="submit"]{
-    outline: none;
-    border: rgba(255, 255, 255, 0.20);
-}
-
-.btn-container .btn:hover{
-    background-color: rgb(24 50 56 / 39%);
-}
-
-
 
 
 .footer-content {
@@ -730,6 +657,13 @@ button[type="submit"]{
 
     nav{
         margin: 0;
+    }
+
+    .active{
+        z-index: 300;
+        transform: translateX(0) !important;
+        border-right: 1px solid rgba(255, 255, 255, 0.25);
+        overflow: hidden;
     }
 
     .navbar{
