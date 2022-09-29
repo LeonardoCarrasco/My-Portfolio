@@ -528,6 +528,14 @@ img{
     background: linear-gradient(90deg, hsla(89, 60%, 87%, 1) 0%, hsla(34, 86%, 58%, 1) 50%, hsla(335, 81%, 65%, 1) 100%);
 }
 
+.container-proyectos :nth-child(6){
+    background: linear-gradient(90deg, hsla(217, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+}
+
+.container-proyectos :nth-child(7){
+    background: linear-gradient(90deg, hsla(197, 100%, 63%, 1) 0%, hsla(294, 100%, 55%, 1) 100%);
+}
+
 .link-repository{
     text-align: right;
     padding: 16px;
