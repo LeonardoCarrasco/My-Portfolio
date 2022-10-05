@@ -240,7 +240,7 @@ img{
     margin: auto;
     box-shadow: 0 0 100px 10px #0a0a0a9e;
     flex-direction: column;
-    padding: 100px 0;
+    padding: 50px 0;
     border-top: 1px solid rgba(255, 255, 255, 0.25);
     border-bottom: 1px solid rgba(255, 255, 255, 0.25);
 }
@@ -268,7 +268,8 @@ img{
 
 .sb-content p{
     color: hsl(207deg 12% 83%);
-    line-height: 1.5;
+    line-height: 1.7;
+    font-weight: normal;
 }
 
 .sb-img .sb-content{
@@ -458,15 +459,21 @@ img{
 .proyectos-section{
     display: flex;
     margin: auto;
-    padding: 100px 0;
+    padding: 50px 0;
 }
 
-.container-proyectos{
-    display: grid;
-    grid-template: auto / auto auto auto;
+.container-proyectos {
     padding: 50px 0px;
     gap: 50px;
-    grid-template-columns: repeat(auto-fill,320px );
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container-proyectos::after{
+    content: '';
+    width: 320px;
+    height: 350px;
 }
 
 
@@ -534,6 +541,14 @@ img{
 
 .container-proyectos :nth-child(7){
     background: linear-gradient(90deg, hsla(197, 100%, 63%, 1) 0%, hsla(294, 100%, 55%, 1) 100%);
+}
+
+.container-proyectos :nth-child(8){
+    background: linear-gradient(90deg, hsla(303, 79%, 76%, 1) 0%, hsla(360, 86%, 67%, 1) 100%);
+}
+
+.container-proyectos :nth-child(9){
+    background: linear-gradient(90deg, hsla(242, 58%, 73%, 1) 0%, hsla(157, 72%, 82%, 1) 100%);
 }
 
 .link-repository{
@@ -641,9 +656,6 @@ img{
         max-width: 1024px;
     }
 
-    .container-proyectos{
-        grid-template-columns: repeat(auto-fill,290px);
-    }
     #contacto{
         height: auto;
         padding: 100px 0;
@@ -707,10 +719,6 @@ img{
         margin-top: 20px;
     }
 
-    .proyectos {
-        width: 100%;
-    }
-
     .formacion-container, .conocimientos-container{
         flex-direction: column;
         align-items: flex-start;
@@ -729,7 +737,7 @@ img{
 @media screen and (max-width:780px){
 
     .container{
-        max-width: 480px;
+        max-width: 500px;
     }
 
     .presentacion{
@@ -756,10 +764,6 @@ img{
         text-align: start;
     }
 
-    .container-proyectos {
-        justify-content: center;
-    }
-
     .presentacion p {
         letter-spacing: 3.5px;
     }
@@ -768,7 +772,7 @@ img{
 @media screen and (max-width:480px){
 
     .container{
-        max-width: 320px;
+        max-width: 360px;
     }
 
     .img-presentacion{
@@ -781,10 +785,6 @@ img{
 
     .formacion-container, .conocimientos-container{
         padding: 0;
-    }
-
-    .container-proyectos {
-        grid-template-columns: repeat(auto-fill,100%);
     }
 
     .sb-img{
